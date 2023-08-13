@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button } from "reactstrap";
+import { Form } from "reactstrap";
 import InputField from "../utils/input-field";
 
 const LoginForm = () => {
@@ -17,7 +17,7 @@ const LoginForm = () => {
 
     return (
         <div className="form">
-            
+
             <Form>
                 <InputField
                     type="text"
